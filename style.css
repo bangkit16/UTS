@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One', cursive;
+    /* font-family: 'Secular One', sans-serif; */
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+  }
+.nav{
+    width: 100%;
+    position: relative;
+    /* background-color: rgba(0, 0, 0, 0.219); */
+}
+  
+  li a {
+    font-family: 'Secular One', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 12px;
+  }
+.brand{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 12px;
+    font-size: 70px;
+    margin-top: -15px;
+}
+  li a:hover {
+    color: rgb(207, 207, 207);
+  }
+body{
+    
+    background-image: url("https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.contain{
+    margin-top: -110px;
+    overflow: hidden;
+    height: 450px;
+    box-shadow: 0px 10px 10px black;
+}
+/* .imagee{
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -300px;
+    height: auto;
+} */
+.img{
+    width: 100%;
+    overflow: hidden;
+    margin-top: -250px;
+    bottom: 0;
+}
+
+.profil{
+    color: white;
+    padding: 20px;
+    padding-top: 25px;
+    z-index: 10;
+}
+.profil h2{
+    font-family: 'Fredoka One', cursive;
+}
+.profil p {
+    font-family: 'Fredoka One', cursive;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.422);
+    padding: 15px;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+table{
+    padding: 12px;
+}
+table tr td {
+    padding: 12px;
+    font-size: 25px;
+}
+.input{
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration: none;
+    border-style: none;
+    padding: 4px;
+}
+.btnsubmit{
+    padding: 10px 20px;
+    font-size: 20px;
+}
